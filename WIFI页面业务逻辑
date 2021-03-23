@@ -1,1 +1,215 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T02:29:28.063Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" version="14.4.9" etag="9YU919_qQrUcJFbEMF0A" type="github"><diagram id="7T4FGi4QVD7dd3qRMKSm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-23T03:09:08.828Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="K_MqIDPhzyUq0Heue0ws" version="14.4.9" type="github">
+  <diagram id="7T4FGi4QVD7dd3qRMKSm" name="Page-1">
+    <mxGraphModel dx="2858" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="J2pBlCL2PFvsFaoL8_bQ-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-6" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-3" target="J2pBlCL2PFvsFaoL8_bQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-8" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-3" target="J2pBlCL2PFvsFaoL8_bQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-3" value="双频优选是否开启？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="140" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-5" target="J2pBlCL2PFvsFaoL8_bQ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-5" target="J2pBlCL2PFvsFaoL8_bQ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-5" value="隐藏双频优选部分，&lt;br&gt;显示2gwifi，5gwifi部分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="310" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-7" value="显示双频优选部分，&lt;br&gt;隐藏2gwifi，5gwifi部分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="150" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-9" value="进入WIFI页面" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-15" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-17" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-12" value="混合wifi是否开启" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="305" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-18" value="隐藏混合wifi的名称，加密模式，密码等信息。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-19" target="J2pBlCL2PFvsFaoL8_bQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-19" value="显示名称" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="465" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-23" value="不加密" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-25" value="加密" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-20" target="J2pBlCL2PFvsFaoL8_bQ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-20" value="判断加密方式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="565" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-24" value="显示对应的加密方式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-26" value="隐藏密码属性框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="575" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-27" value="显示功率" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-38" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-33" target="J2pBlCL2PFvsFaoL8_bQ-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-44" value="f否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-33" value="2gwifi是否开启" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-40" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-35" target="J2pBlCL2PFvsFaoL8_bQ-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-42" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-35" value="5gwifi是否开启" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-45" target="J2pBlCL2PFvsFaoL8_bQ-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-45" value="显示名称" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="565" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-46" target="J2pBlCL2PFvsFaoL8_bQ-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-46" value="显示名称" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="565" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-47" value="不加密" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-48" value="加密" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-49" target="J2pBlCL2PFvsFaoL8_bQ-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-49" value="判断加密方式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-51" value="显示对应的加密方式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-53" value="隐藏密码属性框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-56" value="隐藏混合wifi的名称，加密模式，密码等信息。" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="540" y="420" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-59" value="加密" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-60" target="J2pBlCL2PFvsFaoL8_bQ-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-65" value="不加密" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-60" target="J2pBlCL2PFvsFaoL8_bQ-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-60" value="判断加密方式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-62" value="显示对应的加密方式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-64" value="隐藏密码属性框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J2pBlCL2PFvsFaoL8_bQ-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-180" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-66" value="隐藏混合wifi的名称，加密模式，密码等信息。" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="415" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-68" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="J2pBlCL2PFvsFaoL8_bQ-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="1080" as="sourcePoint" />
+            <mxPoint x="130" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2pBlCL2PFvsFaoL8_bQ-71" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="J2pBlCL2PFvsFaoL8_bQ-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1270" y="1080" as="sourcePoint" />
+            <mxPoint x="1320" y="1030" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
