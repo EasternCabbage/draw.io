@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T07:40:04.254Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="wA1tfml5tjv9O0qBEYdn" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T07:53:31.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="nAMOTbQt-dUppzQFcFTY" version="14.5.1" type="github">
   <diagram id="fzOOKe-X7RxuKdKewm4T" name="Page-1">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -156,7 +156,7 @@
         <mxCell id="4Y8l2hpSFVfsk3-tke5N-29" value="正常启动" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-31" y="-40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4Y8l2hpSFVfsk3-tke5N-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4Y8l2hpSFVfsk3-tke5N-35" target="4Y8l2hpSFVfsk3-tke5N-37">
+        <mxCell id="4Y8l2hpSFVfsk3-tke5N-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4Y8l2hpSFVfsk3-tke5N-35" target="4Y8l2hpSFVfsk3-tke5N-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4Y8l2hpSFVfsk3-tke5N-35" value="插上线的端口&lt;br&gt;轮流dhcp discover" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -167,23 +167,45 @@
         </mxCell>
         <mxCell id="4Y8l2hpSFVfsk3-tke5N-42" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4Y8l2hpSFVfsk3-tke5N-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="233" as="targetPoint" />
+            <mxPoint x="100" y="328" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Y8l2hpSFVfsk3-tke5N-37" value="是否有wan口" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="192.5" width="100" height="80" as="geometry" />
+        <mxCell id="4Y8l2hpSFVfsk3-tke5N-37" value="wan线是否刚好&lt;br&gt;插到port0" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="120" height="75" as="geometry" />
         </mxCell>
         <mxCell id="4Y8l2hpSFVfsk3-tke5N-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4Y8l2hpSFVfsk3-tke5N-39" target="4Y8l2hpSFVfsk3-tke5N-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4Y8l2hpSFVfsk3-tke5N-39" value="划分wan/lan对应端口" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="320" width="120" height="57.5" as="geometry" />
+        <mxCell id="4Y8l2hpSFVfsk3-tke5N-39" value="启动dhcp" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="415" width="120" height="57.5" as="geometry" />
         </mxCell>
         <mxCell id="4Y8l2hpSFVfsk3-tke5N-44" value="重启网络" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="515" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4Y8l2hpSFVfsk3-tke5N-46" value="正常启动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-31" y="201" width="130" height="68" as="geometry" />
+        <mxCell id="4Y8l2hpSFVfsk3-tke5N-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Y8l2hpSFVfsk3-tke5N-46" target="4Y8l2hpSFVfsk3-tke5N-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="444" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Y8l2hpSFVfsk3-tke5N-46" value="分配wan口到&lt;br&gt;正确的vlan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-31" y="296" width="130" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y8l2hpSFVfsk3-tke5N-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4Y8l2hpSFVfsk3-tke5N-51" target="4Y8l2hpSFVfsk3-tke5N-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y8l2hpSFVfsk3-tke5N-54" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4Y8l2hpSFVfsk3-tke5N-51" target="4Y8l2hpSFVfsk3-tke5N-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y8l2hpSFVfsk3-tke5N-56" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4Y8l2hpSFVfsk3-tke5N-51" target="4Y8l2hpSFVfsk3-tke5N-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y8l2hpSFVfsk3-tke5N-51" value="是否有wan口" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="180" width="110" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y8l2hpSFVfsk3-tke5N-55" value="正常启动" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-31" y="183.75" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
