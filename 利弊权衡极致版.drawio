@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-29T06:49:45.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="vDHx0bf6bthyJWorXMYP" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-29T06:52:54.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="w3EuJteCDWtI3fsjfJFG" version="14.8.4" type="github">
   <diagram id="4w0ccPDh1an9Qw12JjNh" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="170" y="240" />
-              <mxPoint x="170" y="320" />
+              <mxPoint x="170" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -42,7 +42,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-10" value="或许能到二线大厂，&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="290" width="130" height="60" as="geometry" />
+          <mxGeometry x="200" y="300" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-11" value="上班上下去" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="95" y="280" width="70" height="20" as="geometry" />
@@ -90,7 +90,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-24" value="或许能到稍次的大厂上班，大概率搬砖。&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-26" value="28-35岁" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="10" width="50" height="20" as="geometry" />
@@ -99,7 +99,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-27" value="或许拼劲全力，备受挫折，进了大厂，然后做普通的开发。" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="290" width="130" height="60" as="geometry" />
+          <mxGeometry x="600" y="300" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-30" value="平台的重要性不言而喻，被动努力即可，周围都是优秀的人，" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="60" width="900" height="20" as="geometry" />
@@ -114,7 +114,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-33" value="&lt;span&gt;被生活折磨的奄奄一息，那就这样了。&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="600" y="390" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yW3tKd6YztMTBVNPVT-j-35" target="yW3tKd6YztMTBVNPVT-j-31">
           <mxGeometry relative="1" as="geometry" />
@@ -124,7 +124,7 @@
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-36" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="yW3tKd6YztMTBVNPVT-j-35">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="320" as="sourcePoint" />
+            <mxPoint x="170" y="330" as="sourcePoint" />
             <mxPoint x="180" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -159,7 +159,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-52" value="展露锋芒，事业到达一定地位，和优秀朋友们谈笑风生" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="800" y="120" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="yW3tKd6YztMTBVNPVT-j-54" target="yW3tKd6YztMTBVNPVT-j-76">
           <mxGeometry relative="1" as="geometry" />
@@ -174,7 +174,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-58" value="或许天资稍差，工作已无法进步，停留原地。" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="800" y="210" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-63" value="" style="endArrow=classic;html=1;fontSize=17;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yW3tKd6YztMTBVNPVT-j-20" target="yW3tKd6YztMTBVNPVT-j-58">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -212,25 +212,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-70" value="生活稳定平淡，&lt;br&gt;有时间做自己喜欢的事情。" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="210" width="150" height="60" as="geometry" />
+          <mxGeometry x="1000" y="210" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="yW3tKd6YztMTBVNPVT-j-72" target="yW3tKd6YztMTBVNPVT-j-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-72" value="年限已至，或被裁员&lt;br&gt;，或转管理也没有任何优势。" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="800" y="300" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="yW3tKd6YztMTBVNPVT-j-74" target="yW3tKd6YztMTBVNPVT-j-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-74" value="转行，或小公司管理，暮年只可这样。" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="290" width="130" height="60" as="geometry" />
+          <mxGeometry x="1000" y="300" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="yW3tKd6YztMTBVNPVT-j-76" target="yW3tKd6YztMTBVNPVT-j-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-76" value="另谋他职，勉强维生" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="390" width="140" height="60" as="geometry" />
+          <mxGeometry x="1000" y="390" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="yW3tKd6YztMTBVNPVT-j-78" target="yW3tKd6YztMTBVNPVT-j-94">
           <mxGeometry relative="1" as="geometry" />
@@ -257,7 +257,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-86" value="生活较为操劳" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="1210" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="yW3tKd6YztMTBVNPVT-j-88" target="yW3tKd6YztMTBVNPVT-j-98">
           <mxGeometry relative="1" as="geometry" />
@@ -266,7 +266,7 @@
           <mxGeometry x="1210" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-90" value="颐养天年" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="1400" y="120" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-92" value="65往后" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1440" y="10" width="70" height="20" as="geometry" />
@@ -278,13 +278,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-94" value="偶有不顺，较为轻松。" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1405" y="210" width="125" height="60" as="geometry" />
+          <mxGeometry x="1400" y="210" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-96" value="或有不顺，生活普通" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1405" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="1400" y="300" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yW3tKd6YztMTBVNPVT-j-98" value="能不能活着，&lt;br&gt;还是个疑问。" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1405" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="1400" y="390" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
