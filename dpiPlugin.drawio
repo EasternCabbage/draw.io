@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T01:15:47.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" version="15.5.9" etag="02Djon7XV3BJ5MA0FhoF" type="github"><diagram id="CUDyPsT_5cI4i0Bhv10b">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-17T02:42:53.247Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="-iVBnXyy8pRkuLtewDAB" version="15.5.9" type="github">
+  <diagram id="CUDyPsT_5cI4i0Bhv10b" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="MFzKN-prpjDhxRkjpTHA-1" target="MFzKN-prpjDhxRkjpTHA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-1" value="xcontrl_ledControl(cJSON *jsonRecv)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="141" width="241" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="MFzKN-prpjDhxRkjpTHA-2" target="MFzKN-prpjDhxRkjpTHA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-2" value="设备和平台建立连接后，平台通过接口将控制命令下发给设备" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="10" y="70" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="MFzKN-prpjDhxRkjpTHA-6" target="MFzKN-prpjDhxRkjpTHA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-6" value="si_xcontrol_ledControl(jsonRecv)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="281" width="241" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="MFzKN-prpjDhxRkjpTHA-8" target="MFzKN-prpjDhxRkjpTHA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-8" value="cJSON_GetObjectItem(jsonRecv,&quot;data&quot;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="421" width="241" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="MFzKN-prpjDhxRkjpTHA-10" target="MFzKN-prpjDhxRkjpTHA-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-10" value="parse_ledcontrol(cJSON *data)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="561" width="241" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="MFzKN-prpjDhxRkjpTHA-12" target="MFzKN-prpjDhxRkjpTHA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-12" value="cJSON *point = cJSON_GetObjectItem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="701" width="241" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="MFzKN-prpjDhxRkjpTHA-14" target="MFzKN-prpjDhxRkjpTHA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-14" value="ctSgw_ssend_to_proxy(CTSGW_EVENT_SET_LED,&amp;amp;LedOnOff,sizeof(LedOnOff),pAck,&amp;amp;wAckLen)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="860" width="542" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="MFzKN-prpjDhxRkjpTHA-16" target="MFzKN-prpjDhxRkjpTHA-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-16" value="{CTSGW_EVENT_SET_LED,ctSgw_proxy_set_led}&lt;br&gt;csSgw_proxy_set_led()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1000" width="542" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-18" value="pm_pdt_ctl_leds(DOWRD cmd)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1140" width="542" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-20" value="dpiPlugin调用接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="414" y="156" width="196" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-21" value="本地编写接口，执行主要任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="414" y="281" width="196" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-22" value="获取json请求信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="430" y="436" width="188" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-23" value="解析json关键词" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="430" y="570" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-24" value="将json关键词对应值赋给cJSON指针" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="430" y="701" width="210" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-26" value="发送消息给事件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="560" y="875" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-27" value="根据结构体，执行关联函数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1030" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MFzKN-prpjDhxRkjpTHA-28" value="执行pmAPI，控制led" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="595" y="1155" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
