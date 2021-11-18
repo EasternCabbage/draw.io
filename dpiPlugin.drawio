@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T03:56:16.513Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="LpTfyxKn3RwK1iLyDlNX" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T05:12:41.642Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="qIN60Y6g6vIhk0IJ6MLg" version="15.7.4" type="github">
   <diagram id="CUDyPsT_5cI4i0Bhv10b" name="Page-1">
     <mxGraphModel dx="1021" dy="567" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,14 +146,14 @@
         <mxCell id="5_94e8n7h1rJNtOSXoxy-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-22" target="5_94e8n7h1rJNtOSXoxy-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5_94e8n7h1rJNtOSXoxy-22" value="pmapi接口向功能模块发送pmapi同步消息，将信息重新写入&lt;br&gt;pm_send_msg_2mm(WLAN_OAM_PID,EV_PM_GET&lt;br&gt;,PM_OBJ_WLANAD...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-22" value="pmapi接口向功能模块发送pmapi同步消息，将信息重新写入DB表中&lt;br&gt;pm_send_msg_2mm(WLAN_OAM_PID,EV_PM_GET&lt;br&gt;,PM_OBJ_WLANAD...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2140" y="370" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-25" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2160" y="510" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5_94e8n7h1rJNtOSXoxy-27" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wifi;pointerEvents=1;fontSize=20;rotation=75;" vertex="1" parent="1">
-          <mxGeometry x="2410" y="330" width="59.7" height="41" as="geometry" />
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-27" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wifi;pointerEvents=1;fontSize=20;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="380" width="60" height="41" as="geometry" />
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-28" target="5_94e8n7h1rJNtOSXoxy-29">
           <mxGeometry relative="1" as="geometry" />
@@ -161,15 +161,10 @@
         <mxCell id="5_94e8n7h1rJNtOSXoxy-28" value="cspd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2500" y="330" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5_94e8n7h1rJNtOSXoxy-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-29" target="5_94e8n7h1rJNtOSXoxy-31">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2690" y="460" />
-              <mxPoint x="2690" y="360" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-29" target="5_94e8n7h1rJNtOSXoxy-39">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5_94e8n7h1rJNtOSXoxy-29" value="wlan_config_main" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=2" vertex="1" parent="1">
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-29" value="wlan_mm_main()" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="2500" y="430" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-31" target="5_94e8n7h1rJNtOSXoxy-33">
@@ -192,6 +187,18 @@
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-37" value="switch(tWlanMMReq-&amp;gt;dwObjId)&lt;br&gt;case PM_OBJ_WLANAD&lt;br&gt;//从数据库获取下挂设备信息" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=2;direction=east;" vertex="1" parent="1">
           <mxGeometry x="2766" y="690" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-39" target="5_94e8n7h1rJNtOSXoxy-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2770" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2740" y="600" />
+              <mxPoint x="2740" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-39" value="wlan_handle_parsemsg()" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="2500" y="570" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
