@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T09:48:40.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="VAlmzlY7pW-D0nmmRedS" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T09:49:07.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="jYkKdPO_sVCS1jHvpKLF" version="15.7.4" type="github">
   <diagram id="CUDyPsT_5cI4i0Bhv10b" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -227,7 +227,7 @@
         <mxCell id="5_94e8n7h1rJNtOSXoxy-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-55" target="5_94e8n7h1rJNtOSXoxy-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5_94e8n7h1rJNtOSXoxy-55" value="get_stainfo_data(cJSON *jsonSend)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-55" value="get_stainfo_data(cJSON *jsonSend)&lt;br&gt;//获取下挂设备信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="610" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-56" target="5_94e8n7h1rJNtOSXoxy-57">
