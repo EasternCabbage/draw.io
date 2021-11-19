@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T04:12:30.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="GMwqpxBylp7z5T5af7aS" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T08:22:00.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="w8s1uF6Uf7IrSBItCEwu" version="15.7.4" type="github">
   <diagram id="CUDyPsT_5cI4i0Bhv10b" name="Page-1">
-    <mxGraphModel dx="1240" dy="689" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1199" dy="653" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,8 +103,8 @@
         <mxCell id="5_94e8n7h1rJNtOSXoxy-210" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-14" target="5_94e8n7h1rJNtOSXoxy-209">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1680" y="450" />
-              <mxPoint x="1970" y="450" />
+              <mxPoint x="1790" y="370" />
+              <mxPoint x="1790" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -546,71 +546,118 @@
           <mxGeometry x="940" y="1960" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-220" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-217" target="5_94e8n7h1rJNtOSXoxy-219">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="2140" />
+              <mxPoint x="1340" y="1660" />
+              <mxPoint x="1550" y="1660" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-217" value="csSgw_ssend_to_proxy(CTSGW_EVENT_V4_SET_WIFISWITCH,&amp;amp;tWlanSwitchState)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="2110" width="500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5_94e8n7h1rJNtOSXoxy-222" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-219" target="5_94e8n7h1rJNtOSXoxy-221">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-219" value="csSgw_proxy_v4_setWIFISwitch()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="2240" width="340" height="60" as="geometry" />
+          <mxGeometry x="1380" y="1690" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5_94e8n7h1rJNtOSXoxy-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-221" target="5_94e8n7h1rJNtOSXoxy-223">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5_94e8n7h1rJNtOSXoxy-221" value="csSgw_proxy_v4_setWIFISwitch()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="2380" width="340" height="60" as="geometry" />
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.464;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-219" target="5_94e8n7h1rJNtOSXoxy-223">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1700" y="1860" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1551" y="1750" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-226" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-223" target="5_94e8n7h1rJNtOSXoxy-225">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-223" value="先对平台信息进行参数处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1451" y="1730" width="340" height="60" as="geometry" />
+          <mxGeometry x="1381" y="1830" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-225" value="pm_wlan_set_config()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="1870" width="340" height="60" as="geometry" />
+          <mxGeometry x="1380" y="1970" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-230" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="5_94e8n7h1rJNtOSXoxy-229">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1620" y="1930" as="sourcePoint" />
+            <mxPoint x="1550" y="2030" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-232" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-229" target="5_94e8n7h1rJNtOSXoxy-231">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-229" value="一系列DB操作" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="2010" width="340" height="60" as="geometry" />
+          <mxGeometry x="1380" y="2110" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-236" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-231" target="5_94e8n7h1rJNtOSXoxy-235">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1850" y="2180" />
-              <mxPoint x="1850" y="2000" />
-              <mxPoint x="2070" y="2000" />
+              <mxPoint x="1780" y="2280" />
+              <mxPoint x="1780" y="2100" />
+              <mxPoint x="2000" y="2100" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-231" value="pm_send_msg_2mm(WLAN_OAM_PID,EV_PM_SET...)&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="2150" width="340" height="60" as="geometry" />
+          <mxGeometry x="1380" y="2250" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-238" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-235" target="5_94e8n7h1rJNtOSXoxy-237">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-235" value="switch(tCamiReq-&amp;gt;dwObjId)&lt;br&gt;case:EV_PM_SET&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1900" y="2037" width="340" height="60" as="geometry" />
+          <mxGeometry x="1830" y="2132" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-240" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-231" target="5_94e8n7h1rJNtOSXoxy-239">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1630" y="2220" as="sourcePoint" />
+            <mxPoint x="1560" y="2320" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5_94e8n7h1rJNtOSXoxy-237" value="wlan_handlie_set" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1900" y="2170" width="340" height="60" as="geometry" />
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-242" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-237" target="5_94e8n7h1rJNtOSXoxy-241">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-237" value="wlan_handle_set" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="2270" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5_94e8n7h1rJNtOSXoxy-239" value="pm_wlan_set_same_ssid(szInstIdentity)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="2280" width="340" height="60" as="geometry" />
+          <mxGeometry x="1380" y="2380" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-244" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-241" target="5_94e8n7h1rJNtOSXoxy-243">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-241" value="//获取网卡状态机&lt;br&gt;wlan_handle_getstatus()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="2390" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-250" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-243" target="5_94e8n7h1rJNtOSXoxy-249">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-243" value="switch(sStatusRet.eDealAction)&lt;br&gt;case: WLAN_DEAL&lt;br&gt;//判断无线网卡此时状态" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="2530" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-248" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-245" target="5_94e8n7h1rJNtOSXoxy-247">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-245" value="/cspd/souce/wlan_config.c&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;handle_wlan_set()&lt;/font&gt;&lt;br&gt;switch(tWlanMMReq-&amp;gt;dwOBjId)&lt;br&gt;case: PM_OBJ_WLANCONFIG" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="2130" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-254" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-247" target="5_94e8n7h1rJNtOSXoxy-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-247" value="wlan_get_cfg_db(iIf_index,&amp;amp;wWlanViewConfig)&lt;br&gt;//从db中获取配置" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="2270" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-249" target="5_94e8n7h1rJNtOSXoxy-245">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-249" value="ASEND(wEvent,(VOID *)tWlanMMReq,(sizeof(T_WLAN_MM_REQ)+tCampiReq-&amp;gt;dwDatalen),WLAN_CONFIG_PID)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="2670" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-256" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="5_94e8n7h1rJNtOSXoxy-253" target="5_94e8n7h1rJNtOSXoxy-255">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-253" value="tWlanDeviceInfo.ops.setup_basic(&amp;amp;tBasic,&amp;amp;tWlandev)&lt;br&gt;//设置到wifi" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="2410" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_94e8n7h1rJNtOSXoxy-255" value="tWlanDeviceInfo.ops.setup_vap_all(iIf_index,cIf_name,&amp;amp;tCfg)&lt;br&gt;//设置到wifi" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="2550" width="340" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
