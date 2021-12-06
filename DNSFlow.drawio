@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T08:22:39.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="ytQW-38hsE3Pa7OmwJ9H" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-06T09:12:47.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="T8lkaJkyOMJd8HZqKVXG" version="15.8.2" type="github">
   <diagram id="2D2HOxvHR0GyOdPJjosD" name="Page-1">
-    <mxGraphModel dx="1019" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1924" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,19 +121,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IGcTQjOR1SLtGCj0_YaF-38" value="if(g_zxic_dnsmasq_cb.zxic_dnsmasq_handle_signal)&lt;br&gt;//如果zxic事件不是空，那么就在这里处理&lt;br&gt;g_zxic_dnsmasq_cb.zxic_dnsmasq_handle_signal()&lt;br&gt;//业务处理多半在这里" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-38" value="if(g_zxic_dnsmasq_cb.zxic_dnsmasq_handle_signal)&lt;br&gt;//如果zxic事件不是空，那么就在这里处理&lt;br&gt;g_zxic_dnsmasq_cb.zxic_dnsmasq_handle_signal()&lt;br&gt;//业务处理多半在这里&lt;br&gt;//但是我在这里看了一下，这里似乎啥也没做" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="485" y="1109" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IGcTQjOR1SLtGCj0_YaF-43" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-40" target="IGcTQjOR1SLtGCj0_YaF-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IGcTQjOR1SLtGCj0_YaF-40" value="zxic_dnsmasq_url_cfg_msg&lt;br&gt;//配置dns信息,是不是打桩的啊？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-40" value="zxic_dnsmasq_url_cfg_msg&lt;br&gt;//似乎只有一个函数命名，但是没有执行什么操作" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="970" y="80" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IGcTQjOR1SLtGCj0_YaF-45" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-42" target="IGcTQjOR1SLtGCj0_YaF-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IGcTQjOR1SLtGCj0_YaF-42" value="zxic_dnsmasq_read_redirect_file()&lt;br&gt;//晓不得干嘛的，后面再看下" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-42" value="zxic_dnsmasq_read_redirect_file()&lt;br&gt;//阅读重定向文件，在路由器上看了一下DNSMASQ_REDIRECT_FILE里边没有内容" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="970" y="220" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IGcTQjOR1SLtGCj0_YaF-47" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-44" target="IGcTQjOR1SLtGCj0_YaF-46">
@@ -151,7 +151,7 @@
         <mxCell id="IGcTQjOR1SLtGCj0_YaF-51" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-48" target="IGcTQjOR1SLtGCj0_YaF-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IGcTQjOR1SLtGCj0_YaF-48" value="if(g_zxic_dnsmasq_cb.zxic_dnsmasq_read_deceive_file!=NULL)&lt;br&gt;//如果阅读DNS欺骗文件不存在&lt;br&gt;g_zxic_dnsmasq_cb.zxic_dnsmasq_read_deceive_file(&amp;amp;bDeceEnable,cIpv4Adde,cIpv6Addr)&lt;br&gt;//执行阅读这个欺骗文件&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-48" value="if(g_zxic_dnsmasq_cb.zxic_dnsmasq_read_deceive_file!=NULL)&lt;br&gt;//如果阅读DNS欺骗文件不存在&lt;br&gt;g_zxic_dnsmasq_cb.zxic_dnsmasq_read_deceive_file(&amp;amp;bDeceEnable,cIpv4Adde,cIpv6Addr)&lt;br&gt;//执行阅读这个欺骗文件&lt;br&gt;似乎也是个空函数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="950" y="641" width="520" height="69" as="geometry" />
         </mxCell>
         <mxCell id="IGcTQjOR1SLtGCj0_YaF-53" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-50" target="IGcTQjOR1SLtGCj0_YaF-52">
@@ -160,7 +160,7 @@
         <mxCell id="IGcTQjOR1SLtGCj0_YaF-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-50" target="IGcTQjOR1SLtGCj0_YaF-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IGcTQjOR1SLtGCj0_YaF-50" value="specify_answer_request(header,((char *header)+PACKETSZ,(unsigned int)n,bDeceEnable)&lt;br&gt;//特殊DNS请求的处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-50" value="specify_answer_request(header,((char *header)+PACKETSZ,(unsigned int)n,bDeceEnable)&lt;br&gt;//特殊DNS请求的处理&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="950" y="790" width="520" height="69" as="geometry" />
         </mxCell>
         <mxCell id="IGcTQjOR1SLtGCj0_YaF-52" value="if(m&amp;gt;=1)//DNS欺骗" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -177,7 +177,7 @@
             <mxPoint x="1630" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IGcTQjOR1SLtGCj0_YaF-57" value="zxic_dnsmasq_dpi()//dpii测试用的，支持开关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-57" value="zxic_dnsmasq_dpi()//dpii测试用的，支持开关" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1160" y="1090" width="290" height="71" as="geometry" />
         </mxCell>
         <mxCell id="IGcTQjOR1SLtGCj0_YaF-62" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-60" target="IGcTQjOR1SLtGCj0_YaF-61">
