@@ -1,1 +1,201 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T02:18:43.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" version="15.8.2" etag="AHgM1GP06-nWy2knpsUr" type="github"><diagram id="2D2HOxvHR0GyOdPJjosD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-06T08:22:39.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="ytQW-38hsE3Pa7OmwJ9H" version="15.8.2" type="github">
+  <diagram id="2D2HOxvHR0GyOdPJjosD" name="Page-1">
+    <mxGraphModel dx="1019" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-1" target="IGcTQjOR1SLtGCj0_YaF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-1" value="定义数据，租约文件，用户名，if名，if地址，服务器结构体，resolvfilename，缓存大小，端口，" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="80" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-4" target="IGcTQjOR1SLtGCj0_YaF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-4" value="zixc_dnsmasq_fun_init dnsmasq_init;(闭源函数dnsmasq初始化)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="221" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-6" target="IGcTQjOR1SLtGCj0_YaF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-6" value="dnsmasq_is_zxic_plugin（判断是仅仅提供开源功能或者是增加定制功能）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="361" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-8" target="IGcTQjOR1SLtGCj0_YaF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-8" value="分配最大dhcpname，最大dns包大小" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="501" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-10" target="IGcTQjOR1SLtGCj0_YaF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-10" value="解析输入选项" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="641" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-12" target="IGcTQjOR1SLtGCj0_YaF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-12" value="查询所有socket接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="781" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-14" target="IGcTQjOR1SLtGCj0_YaF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-14" value="forward_init(1)//转发初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="921" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-16" target="IGcTQjOR1SLtGCj0_YaF-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1091" />
+              <mxPoint x="450" y="40" />
+              <mxPoint x="605" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-16" value="cache_init(CACHESIZ)//缓存初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1061" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-18" target="IGcTQjOR1SLtGCj0_YaF-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-18" target="IGcTQjOR1SLtGCj0_YaF-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-18" value="cache_init(CACHESIZ)//缓存初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="80" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-21" value="如果pipe(timerpipe)失败那就释放先前申请的内存，然后return-1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-22" target="IGcTQjOR1SLtGCj0_YaF-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-22" value="进入循环" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="220" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-29" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-25" target="IGcTQjOR1SLtGCj0_YaF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-25" value="清空文件描述符" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-31" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-28" target="IGcTQjOR1SLtGCj0_YaF-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-28" value="重置文件描述符" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="410" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-33" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-30" target="IGcTQjOR1SLtGCj0_YaF-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-30" value="FDSET(timerpipe）&lt;br&gt;FDSET(interfaces)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="550" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-35" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-32" target="IGcTQjOR1SLtGCj0_YaF-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-32" value="if(select)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="690" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-37" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-34" target="IGcTQjOR1SLtGCj0_YaF-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-34" value="if(sighup)//缓存重置，" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="830" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-39" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-36" target="IGcTQjOR1SLtGCj0_YaF-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-36" value="if(sigusr1)//显示dns缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="970" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-41" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-38" target="IGcTQjOR1SLtGCj0_YaF-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="1139" />
+              <mxPoint x="930" />
+              <mxPoint x="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-38" value="if(g_zxic_dnsmasq_cb.zxic_dnsmasq_handle_signal)&lt;br&gt;//如果zxic事件不是空，那么就在这里处理&lt;br&gt;g_zxic_dnsmasq_cb.zxic_dnsmasq_handle_signal()&lt;br&gt;//业务处理多半在这里" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1109" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-43" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-40" target="IGcTQjOR1SLtGCj0_YaF-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-40" value="zxic_dnsmasq_url_cfg_msg&lt;br&gt;//配置dns信息,是不是打桩的啊？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="970" y="80" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-45" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-42" target="IGcTQjOR1SLtGCj0_YaF-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-42" value="zxic_dnsmasq_read_redirect_file()&lt;br&gt;//晓不得干嘛的，后面再看下" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="970" y="220" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-47" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-44" target="IGcTQjOR1SLtGCj0_YaF-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-44" value="for(挨个挨个查看，触发的fd，然后执行相应的动作)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="970" y="360" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-49" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-46" target="IGcTQjOR1SLtGCj0_YaF-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-46" value="if(g_zixc_dnsmasq_cb.zxic_dnsmasq_match_dns_control)&lt;br&gt;//如果是要在这里控制DNS，那么就&lt;br&gt;if(DNS_DROP ==g_zxic_dnsmasq_cb.zxic_dnsmasq_match_dns_control)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="950" y="501" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-51" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-48" target="IGcTQjOR1SLtGCj0_YaF-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-48" value="if(g_zxic_dnsmasq_cb.zxic_dnsmasq_read_deceive_file!=NULL)&lt;br&gt;//如果阅读DNS欺骗文件不存在&lt;br&gt;g_zxic_dnsmasq_cb.zxic_dnsmasq_read_deceive_file(&amp;amp;bDeceEnable,cIpv4Adde,cIpv6Addr)&lt;br&gt;//执行阅读这个欺骗文件&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="950" y="641" width="520" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-53" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-50" target="IGcTQjOR1SLtGCj0_YaF-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-50" target="IGcTQjOR1SLtGCj0_YaF-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-50" value="specify_answer_request(header,((char *header)+PACKETSZ,(unsigned int)n,bDeceEnable)&lt;br&gt;//特殊DNS请求的处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="950" y="790" width="520" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-52" value="if(m&amp;gt;=1)//DNS欺骗" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="939" width="180" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-58" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-55" target="IGcTQjOR1SLtGCj0_YaF-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-55" value="else//dns欺骗关闭，或者报文异常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="939" width="290" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-57" target="IGcTQjOR1SLtGCj0_YaF-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1630" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-57" value="zxic_dnsmasq_dpi()//dpii测试用的，支持开关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1090" width="290" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-62" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-60" target="IGcTQjOR1SLtGCj0_YaF-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-65" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IGcTQjOR1SLtGCj0_YaF-60" target="IGcTQjOR1SLtGCj0_YaF-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-60" value="answer_request()&lt;br&gt;//这里执行DNS的回应" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="20" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-61" value="if(m &amp;gt;= 1)//缓存里有，直接返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="140" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGcTQjOR1SLtGCj0_YaF-64" value="else//缓存里没有，查询根域名服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1868" y="140" width="200" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
