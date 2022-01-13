@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-13T09:46:52.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="bAAH1OGJMiN0_1FgFgtT" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-13T10:23:58.764Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="yuY4sFBYCFnhkwUBKPj1" version="16.2.6" type="github">
   <diagram id="Va-PVR1Byn-keVQ8LROa" name="Page-1">
-    <mxGraphModel dx="1019" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1132" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -315,43 +315,43 @@
         <mxCell id="y3eOfbAJYc8zDkFanGfB-136" value="pm_e8_wanc_del_comm_bridge(WANC_ID)&lt;br&gt;//删除桥连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1121" y="2300" width="319" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y3eOfbAJYc8zDkFanGfB-137" value="如果定义了组播，删除组播VLAN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-137" value="如果定义了组播，删除组播VLAN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1121" y="2380" width="319" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y3eOfbAJYc8zDkFanGfB-138" value="pm_e8_wanc_del_dhcp_by_wanc(WANC_ID)&lt;br&gt;//删除DHCP数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-138" value="pm_e8_wanc_del_dhcp_by_wanc(WANC_ID)&lt;br&gt;//删除DHCP数据库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="1121" y="2450" width="319" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y3eOfbAJYc8zDkFanGfB-139" value="pm_e8_wanc_recfg_dhcp_on_lans()&lt;br&gt;//重新配置DHCP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-139" value="pm_e8_wanc_recfg_dhcp_on_lans()&lt;br&gt;//重新配置DHCP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1121" y="2520" width="319" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-140" value="pm_e8_wanc_del_comm_ppp(WANC_ID)&lt;br&gt;//删除WANC链接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1540" y="2300" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y3eOfbAJYc8zDkFanGfB-141" value="如果定义了组播VLAN，删除组播VLAN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-141" value="如果定义了组播VLAN，删除组播VLAN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1540" y="2380" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y3eOfbAJYc8zDkFanGfB-142" value="pm_e8_wanc_del_dhcp_by_wanc(WANC_ID)&lt;br&gt;//删除DHCP数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-142" value="pm_e8_wanc_del_dhcp_by_wanc(WANC_ID)&lt;br&gt;//删除DHCP数据库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="1540" y="2450" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y3eOfbAJYc8zDkFanGfB-143" value="pm_e8_wanc_recfg_dhcp_on_lans()&lt;br&gt;//重新配置dhcp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-143" value="pm_e8_wanc_recfg_dhcp_on_lans()&lt;br&gt;//重新配置dhcp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1540" y="2520" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y3eOfbAJYc8zDkFanGfB-144" value="pm_e8_wanc_tr069_del_dslite(WANC_ID)&lt;br&gt;//删除dslite" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-144" value="pm_e8_wanc_tr069_del_dslite(WANC_ID)&lt;br&gt;//删除dslite" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1540" y="2601" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-145" value="pm_e8_wanc_del_comm_ip(WACN_ID)&lt;br&gt;//删除WANC链接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1940" y="2300" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y3eOfbAJYc8zDkFanGfB-146" value="如果定义了组播VLAN,删除组播VLAN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-146" value="如果定义了组播VLAN,删除组播VLAN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1940" y="2380" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y3eOfbAJYc8zDkFanGfB-147" value="pm_e8_wanc_del_dhcp_by_wanc(WANC_ID)&lt;br&gt;//删除DHCP数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-147" value="pm_e8_wanc_del_dhcp_by_wanc(WANC_ID)&lt;br&gt;//删除DHCP数据库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="1940" y="2450" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y3eOfbAJYc8zDkFanGfB-148" value="pm_e8_wanc_recfg_dhcp_on_lans()&lt;br&gt;//重新配置dhcp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-148" value="pm_e8_wanc_recfg_dhcp_on_lans()&lt;br&gt;//重新配置dhcp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1934.75" y="2520" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y3eOfbAJYc8zDkFanGfB-149" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;pm_e8_wanc_tr069_del_dslite(WANC_ID)&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;//删除dslite&lt;/span&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-149" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;pm_e8_wanc_tr069_del_dslite(WANC_ID)&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;//删除dslite&lt;/span&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1934.75" y="2601" width="300" height="60" as="geometry" />
         </mxCell>
       </root>
