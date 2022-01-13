@@ -1,1 +1,139 @@
-<mxfile host="app.diagrams.net" modified="2022-01-13T02:05:03.563Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" version="15.9.1" etag="x1LXUgkMFWl-_TAiBZFf" type="github"><diagram id="Va-PVR1Byn-keVQ8LROa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-13T07:17:42.432Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="WMM4vP2jrYRaeXIwziJE" version="16.2.6" type="github">
+  <diagram id="Va-PVR1Byn-keVQ8LROa" name="Page-1">
+    <mxGraphModel dx="1199" dy="1822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="70" as="sourcePoint" />
+            <mxPoint x="135" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-5" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;si_webd_mode_test（）&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;//设置上网模式&lt;/span&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="32.5" y="10" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-15" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.smiley" vertex="1" parent="1">
+          <mxGeometry x="32.5" y="-150" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="y3eOfbAJYc8zDkFanGfB-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="150.00000000000023" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135.08333333333348" y="290.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-19" value="webd_getenv(&quot;Clientaddr&quot;,clientaddr)&lt;br&gt;获取客户端ip地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="22.5" y="150" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-24" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-53" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.9999999999998" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-22" value="if(要切换的上网方式==桥接)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="21.25" y="290" width="227.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-27" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-25" target="y3eOfbAJYc8zDkFanGfB-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-29" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-25" target="y3eOfbAJYc8zDkFanGfB-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-25" value="if(当前上网方式==2)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="460" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-26" value="根据获取的客户端地址，添加路由表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248.75" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-28" target="y3eOfbAJYc8zDkFanGfB-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-28" value="pm_set_uplink_mode()&lt;br&gt;pm_wlan_Disselect_ap_bystamode(0)&lt;br&gt;pm_wlan_Disselect_ap_bystamode(1)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="21.25" y="630" width="227.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-31" target="y3eOfbAJYc8zDkFanGfB-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-31" value="设置上网模式参数" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="23.75" y="760" width="222.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-33" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="23.75" y="860" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-41" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-39" target="y3eOfbAJYc8zDkFanGfB-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-39" target="y3eOfbAJYc8zDkFanGfB-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-39" value="if(上个上网模式==2)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="553.75" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="613.75" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="803.75" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-40" value="添加路由表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="743.75" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-45" target="y3eOfbAJYc8zDkFanGfB-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-45" value="pm_set_uplink_mode()&lt;br&gt;pm_wlan_Disselect_ap_bystamode(0)&lt;br&gt;pm_wlan_Disselect_ap_bystamode(1)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="849" width="227.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-49" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-46" target="y3eOfbAJYc8zDkFanGfB-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-52" value="否定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-46" target="y3eOfbAJYc8zDkFanGfB-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-46" value="是否是dhcp或ppp" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="528.75" y="939" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-48" value="设置参数为DNS打开" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="553.75" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-50" value="设置参数为DNS关闭" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="803.75" y="949" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-55" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-54" target="y3eOfbAJYc8zDkFanGfB-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-57" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-54" target="y3eOfbAJYc8zDkFanGfB-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-54" value="if(要切换的上网方式是路由)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510.75" y="290" width="207" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-56" value="if(要切换的上网方式是中继)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="290" width="207" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-58" target="y3eOfbAJYc8zDkFanGfB-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3eOfbAJYc8zDkFanGfB-58" value="设置上网模式参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="538.62" y="690" width="151.25" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
