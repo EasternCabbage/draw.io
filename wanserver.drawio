@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T09:27:27.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="8DqefNNPHDNzfa7faQfH" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-20T09:34:54.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="W6xDu4IK_y-b9YZcGQUv" version="16.2.6" type="github">
   <diagram id="Va-PVR1Byn-keVQ8LROa" name="Page-1">
-    <mxGraphModel dx="1456" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1211" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -605,6 +605,9 @@
         <mxCell id="y3eOfbAJYc8zDkFanGfB-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-229" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2269.9999999999995" y="3930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2270" y="3830" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-229" value="pm_send_msg_2mm(..,PM_OBJ_WAN_DEL_WANC,..)&lt;br&gt;//通知wanc管理模块（删除wanc）" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -835,10 +838,15 @@
         <mxCell id="K4S3g9r_EhhpYkq4am3e-82" value="pm_wanc_release_mac_foe_wanc&lt;br&gt;释放mac记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2676.5" y="2730" width="185" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="K4S3g9r_EhhpYkq4am3e-83" value="pm_send_msg_2mm()&lt;br&gt;//通知DHCP4C管理模块，&lt;br&gt;执行删除WAN连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2676.5" y="2810" width="185" height="70" as="geometry" />
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-83" value="pm_send_msg_2mm(DHCP4C_PID,EV_PM_DEL,...)&lt;br&gt;//通知DHCP4C管理模块，&lt;br&gt;执行删除WAN连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2676.5" y="2808" width="185" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="K4S3g9r_EhhpYkq4am3e-84" value="pm_send_msg_2mm()&lt;br&gt;//通知WAN管理模块删除WAN连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.351;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-84" target="y3eOfbAJYc8zDkFanGfB-229">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2220" y="3750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-84" value="pm_send_msg_2mm(IFS_ADAPT_PID,EV_PM_DEL,PM_OBJ_WAN_DEL_WANC)&lt;br&gt;//通知WAN管理模块删除WAN连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2676.5" y="2890" width="185" height="70" as="geometry" />
         </mxCell>
       </root>
