@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T09:34:54.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="W6xDu4IK_y-b9YZcGQUv" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-25T09:50:05.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="1FRk5dedMH-YTlu34UYB" version="16.2.6" type="github">
   <diagram id="Va-PVR1Byn-keVQ8LROa" name="Page-1">
-    <mxGraphModel dx="1211" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6340" dy="2775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -222,30 +222,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-85" value="如果没有定义CONFIG_ZXICUS_RANDOM_PLUGIN&lt;br&gt;和CONFIG_ZXICUS_WAN_LAN_SW" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="736.25" y="1850" width="333.5" height="80" as="geometry" />
+          <mxGeometry x="740.25" y="1780" width="333.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-86" target="y3eOfbAJYc8zDkFanGfB-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-86" value="如果是中继转桥接，桥接转中继，中继转中继" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="334.38" y="1850" width="333.5" height="80" as="geometry" />
+          <mxGeometry x="338.38" y="1780" width="333.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-88" target="y3eOfbAJYc8zDkFanGfB-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-88" value="lan_update();" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="414.13" y="1984" width="174" height="60" as="geometry" />
+          <mxGeometry x="418.13" y="1914" width="174" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-90" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="901" y="2280" as="targetPoint" />
+            <mxPoint x="905" y="2210" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="501" y="2280" />
+              <mxPoint x="505" y="2210" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-90" value="ASEND(EV_OFFLINE_DEV,&amp;amp;tRouteMode,sizeof(tRouteMode),IFS_ADAPT_PID)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="266.0000000000001" y="2120" width="470.25" height="66" as="geometry" />
+          <mxGeometry x="270.0000000000001" y="2050" width="470.25" height="66" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-92" target="y3eOfbAJYc8zDkFanGfB-94" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -254,32 +254,35 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-92" value="si_ifsadapt_clear_wanc()&lt;br&gt;//清楚wan链接的业务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="784" y="1998" width="237" height="60" as="geometry" />
+          <mxGeometry x="788" y="1928" width="237" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-94" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="903" y="2350" as="targetPoint" />
+            <mxPoint x="907" y="2280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-94" target="K4S3g9r_EhhpYkq4am3e-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-94" value="si_ifsadapt_set_wanc_by_mode()&lt;br&gt;//设置wan链接的业务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="784" y="2140" width="237" height="60" as="geometry" />
+          <mxGeometry x="788" y="2070" width="237" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-99" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="833" y="2350" width="140" height="60" as="geometry" />
+          <mxGeometry x="837" y="2280" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-113" target="y3eOfbAJYc8zDkFanGfB-115" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-113" value="获取DB中wanc的数据" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1181" y="1870" width="209" height="60" as="geometry" />
+          <mxGeometry x="5190.25" y="1680" width="209" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-115" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1285.5" y="2124" as="targetPoint" />
+            <mxPoint x="5294.75" y="1934" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-115" value="根据数据库中储存的已创建的wan链接数，循环执行wan链接的清除" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1181" y="1984" width="209" height="60" as="geometry" />
+          <mxGeometry x="5190.25" y="1794" width="209" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-119" target="y3eOfbAJYc8zDkFanGfB-120" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -288,10 +291,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-119" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;如果是other 桥&lt;/span&gt;&#xa;&#xa;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1158.25" y="2130" width="254.5" height="80" as="geometry" />
+          <mxGeometry x="5167.5" y="1940" width="254.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-120" value="pm_e8_wanc_del_comm_bridge_ext(WANC_ID[dwIndex])" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1094.63" y="2250" width="381.75" height="460" as="geometry" />
+          <mxGeometry x="5103.88" y="2060" width="381.75" height="460" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="y3eOfbAJYc8zDkFanGfB-122" target="y3eOfbAJYc8zDkFanGfB-125" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -300,236 +303,236 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-122" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;如果是pppoe wan连接&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1562.75" y="2130" width="254.5" height="80" as="geometry" />
+          <mxGeometry x="5572" y="1940" width="254.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-125" value="pm_e8_wanc_del_comm_ppp_ext(WANC_ID[dwIndex])" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1520" y="2250" width="340" height="460" as="geometry" />
+          <mxGeometry x="5529.25" y="2060" width="340" height="460" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-127" target="y3eOfbAJYc8zDkFanGfB-129" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-127" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;如果是internet dhcp static wan连接&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1957.5" y="2130" width="254.5" height="80" as="geometry" />
+          <mxGeometry x="5966.75" y="1940" width="254.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-129" value="pm_e8_wanc_del_comm_ip_ext(WANC_ID[WANC[dwIndex])" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1909.5" y="2250" width="350.5" height="460" as="geometry" />
+          <mxGeometry x="5918.75" y="2060" width="350.5" height="460" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="y3eOfbAJYc8zDkFanGfB-136" target="y3eOfbAJYc8zDkFanGfB-185" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1500" y="2330" />
-              <mxPoint x="1500" y="2810" />
+              <mxPoint x="5509.25" y="2140" />
+              <mxPoint x="5509.25" y="2620" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-136" value="pm_e8_wanc_del_comm_bridge_ext(WANC_ID)&lt;br&gt;//删除桥连接" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1121" y="2300" width="319" height="60" as="geometry" />
+          <mxGeometry x="5130.25" y="2110" width="319" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-137" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="2710" as="targetPoint" />
+            <mxPoint x="4629.25" y="2520" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="620" y="2420" />
+              <mxPoint x="4629.25" y="2230" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-137" value="pm_muti_set_wan(&amp;amp;tMultiWan)&lt;br&gt;如果定义了组播，删除组播VLAN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1121" y="2380" width="319" height="60" as="geometry" />
+          <mxGeometry x="5130.25" y="2190" width="319" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="y3eOfbAJYc8zDkFanGfB-138" target="y3eOfbAJYc8zDkFanGfB-153" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-138" value="pm_e8_wanc_del_dhcp_by_wanc(WANC_ID)&lt;br&gt;//删除DHCP数据库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="1121" y="2450" width="319" height="60" as="geometry" />
+          <mxGeometry x="5130.25" y="2260" width="319" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="y3eOfbAJYc8zDkFanGfB-139" target="y3eOfbAJYc8zDkFanGfB-158" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-139" value="pm_e8_wanc_recfg_dhcp_on_lans()&lt;br&gt;//重新配置DHCP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1121" y="2520" width="319" height="60" as="geometry" />
+          <mxGeometry x="5130.25" y="2330" width="319" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="y3eOfbAJYc8zDkFanGfB-140" target="y3eOfbAJYc8zDkFanGfB-196" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1880" y="2869.9999999999995" as="targetPoint" />
+            <mxPoint x="5889.25" y="2679.9999999999995" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1890" y="2330" />
-              <mxPoint x="1890" y="2850" />
+              <mxPoint x="5899.25" y="2140" />
+              <mxPoint x="5899.25" y="2660" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-140" value="e8_wanc_pmapi.c&lt;br&gt;pm_e8_wanc_del_comm_ppp(WANC_ID)&lt;br&gt;//删除WANC链接" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1540" y="2300" width="300" height="60" as="geometry" />
+          <mxGeometry x="5549.25" y="2110" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-141" value="如果定义了组播VLAN，删除组播VLAN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1540" y="2380" width="300" height="60" as="geometry" />
+          <mxGeometry x="5549.25" y="2190" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-142" value="pm_e8_wanc_del_dhcp_by_wanc(WANC_ID)&lt;br&gt;//删除DHCP数据库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="1540" y="2450" width="300" height="60" as="geometry" />
+          <mxGeometry x="5549.25" y="2260" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-143" value="pm_e8_wanc_recfg_dhcp_on_lans()&lt;br&gt;//重新配置dhcp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1540" y="2520" width="300" height="60" as="geometry" />
+          <mxGeometry x="5549.25" y="2330" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-144" value="pm_e8_wanc_tr069_del_dslite(WANC_ID)&lt;br&gt;//删除dslite" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1540" y="2601" width="300" height="60" as="geometry" />
+          <mxGeometry x="5549.25" y="2411" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-145">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2410" y="2329.9999999999995" as="targetPoint" />
+            <mxPoint x="6419.25" y="2139.9999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-145" value="pm_e8_wanc_del_comm_ip(WACN_ID)&lt;br&gt;//删除WANC链接" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1940" y="2300" width="300" height="60" as="geometry" />
+          <mxGeometry x="5949.25" y="2110" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-146" value="如果定义了组播VLAN,删除组播VLAN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1940" y="2380" width="300" height="60" as="geometry" />
+          <mxGeometry x="5949.25" y="2190" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-147" value="pm_e8_wanc_del_dhcp_by_wanc(WANC_ID)&lt;br&gt;//删除DHCP数据库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="1940" y="2450" width="300" height="60" as="geometry" />
+          <mxGeometry x="5949.25" y="2260" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-148" value="pm_e8_wanc_recfg_dhcp_on_lans()&lt;br&gt;//重新配置dhcp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1940" y="2520" width="300" height="60" as="geometry" />
+          <mxGeometry x="5949.25" y="2330" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-149" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;pm_e8_wanc_tr069_del_dslite(WANC_ID)&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;//删除dslite&lt;/span&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1940" y="2601" width="300" height="60" as="geometry" />
+          <mxGeometry x="5949.25" y="2411" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-153" value="都是一些DB操作" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="727.5" y="2530" width="120" height="80" as="geometry" />
+          <mxGeometry x="4736.75" y="2340" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-158" value="对每个lan口进行DHCP操作" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="782.75" y="2710" width="287" height="750" as="geometry" />
+          <mxGeometry x="4792" y="2520" width="287" height="750" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-159" value="GET_ETH_VIEW/GET_WLAN_VIEW&lt;br&gt;获取有/无线网卡视图" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="804.75" y="2740" width="240" height="60" as="geometry" />
+          <mxGeometry x="4814" y="2550" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-162" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-160" target="y3eOfbAJYc8zDkFanGfB-161" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-160" value="pm_pdt_turn_dhcp_srv_on_port()&lt;br&gt;//将这个端口的DHCP开启" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="804.75" y="2810" width="240" height="60" as="geometry" />
+          <mxGeometry x="4814" y="2620" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-161" value="pm_binding_list_wan&lt;br&gt;//查看绑定WANC是否有DHCP关闭" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="804.75" y="2900" width="240" height="60" as="geometry" />
+          <mxGeometry x="4814" y="2710" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-163" value="依次处理每个wan连接(循环)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="804.75" y="2980" width="251" height="390" as="geometry" />
+          <mxGeometry x="4814" y="2790" width="251" height="390" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-166" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-164" target="y3eOfbAJYc8zDkFanGfB-165" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-164" value="zxicDbView(DBVIEW_WANC,tWANId[j,&amp;amp;tWANC])&lt;br&gt;//获取其连接类型" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="824.75" y="3010" width="210" height="60" as="geometry" />
+          <mxGeometry x="4834" y="2820" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-165" target="y3eOfbAJYc8zDkFanGfB-167" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-165" value="#ifdefine CONFIG_ZXICUS_PPP&amp;nbsp;&lt;br&gt;&amp;amp;&amp;amp; define CONFIG_ZXICUS_PPP_PASSTHROUGH&lt;br&gt;如果hide参数为1，隐藏wan连接" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="820.25" y="3100" width="220" height="60" as="geometry" />
+          <mxGeometry x="4829.5" y="2910" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-167" target="y3eOfbAJYc8zDkFanGfB-169" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-167" value="pm_e8_wanc_get_dhcp_by_wanc(tWANId[j]，&amp;amp;dhcpEnable)&lt;br&gt;//获取wanc 的dhcp开关标志位" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="820.25" y="3200" width="220" height="60" as="geometry" />
+          <mxGeometry x="4829.5" y="3010" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-169" value="如果dhcp开关标志位为0，关闭这个端口的dhcp" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="820.25" y="3290" width="220" height="60" as="geometry" />
+          <mxGeometry x="4829.5" y="3100" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-175" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-173" target="y3eOfbAJYc8zDkFanGfB-174" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-173" value="pm_send_msg_2mm()&lt;br&gt;通知管理模块设置组播" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="538.62" y="2710" width="170" height="60" as="geometry" />
+          <mxGeometry x="4547.87" y="2520" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-177" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-174" target="y3eOfbAJYc8zDkFanGfB-176" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-174" value="pm_multi_add_vlan_bindinfo(ptMultiwan)&lt;br&gt;配置wan连接的时候获取vlan的绑定信息，修改数据库表进行后面的配置" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="512.93" y="2810" width="221.38" height="70" as="geometry" />
+          <mxGeometry x="4522.18" y="2620" width="221.38" height="70" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-176" value="inter路由wan连接在绑定组播vlan的情况下，自动关联到igmp proxy&lt;br&gt;pm_multi_link_wan(ptMultiWan);" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="510.74999999999994" y="2940" width="224.57" height="60" as="geometry" />
+          <mxGeometry x="4520" y="2750" width="224.57" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-193" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-183" target="y3eOfbAJYc8zDkFanGfB-192" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-183" value="pm_e8_wanc_del_comm_ppp()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
-          <mxGeometry x="1200" y="2930" width="200" height="60" as="geometry" />
+          <mxGeometry x="5209.25" y="2740" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-187" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="y3eOfbAJYc8zDkFanGfB-185" target="y3eOfbAJYc8zDkFanGfB-183" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-190" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-185" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1170" y="2840" as="targetPoint" />
+            <mxPoint x="5179.25" y="2650" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1170" y="2810" />
+              <mxPoint x="5179.25" y="2620" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-185" value="当前WANC类型是ppp_connection" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="2770" width="140" height="80" as="geometry" />
+          <mxGeometry x="5239.25" y="2580" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="y3eOfbAJYc8zDkFanGfB-191" target="y3eOfbAJYc8zDkFanGfB-192" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-191" value="pm_e8_wanc_del_comm_ip()&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="2840" width="170" height="60" as="geometry" />
+          <mxGeometry x="5089.25" y="2650" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-192" value="end" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1240" y="3070" width="120" height="60" as="geometry" />
+          <mxGeometry x="5249.25" y="2880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-204" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-196" target="y3eOfbAJYc8zDkFanGfB-203" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-196" value="获取WANCD视图名" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1600" y="2820" width="170" height="60" as="geometry" />
+          <mxGeometry x="5609.25" y="2630" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-197" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="y3eOfbAJYc8zDkFanGfB-141" target="y3eOfbAJYc8zDkFanGfB-146" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1800" y="2490" as="sourcePoint" />
-            <mxPoint x="1850" y="2440" as="targetPoint" />
+            <mxPoint x="5809.25" y="2300" as="sourcePoint" />
+            <mxPoint x="5859.25" y="2250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-198" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="y3eOfbAJYc8zDkFanGfB-137" target="y3eOfbAJYc8zDkFanGfB-141" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1420" y="2490" as="sourcePoint" />
-            <mxPoint x="1470" y="2440" as="targetPoint" />
+            <mxPoint x="5429.25" y="2300" as="sourcePoint" />
+            <mxPoint x="5479.25" y="2250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-199" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1440" y="2479.5" as="sourcePoint" />
-            <mxPoint x="1540" y="2479.5" as="targetPoint" />
+            <mxPoint x="5449.25" y="2289.5" as="sourcePoint" />
+            <mxPoint x="5549.25" y="2289.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-200" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1440" y="2549.5" as="sourcePoint" />
-            <mxPoint x="1540" y="2549.5" as="targetPoint" />
+            <mxPoint x="5449.25" y="2359.5" as="sourcePoint" />
+            <mxPoint x="5549.25" y="2359.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-201" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1840" y="2479.5" as="sourcePoint" />
-            <mxPoint x="1940" y="2479.5" as="targetPoint" />
+            <mxPoint x="5849.25" y="2289.5" as="sourcePoint" />
+            <mxPoint x="5949.25" y="2289.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-202" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1840" y="2549.5" as="sourcePoint" />
-            <mxPoint x="1940" y="2549.5" as="targetPoint" />
+            <mxPoint x="5849.25" y="2359.5" as="sourcePoint" />
+            <mxPoint x="5949.25" y="2359.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-206" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-203" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1685" y="3000" as="targetPoint" />
+            <mxPoint x="5694.25" y="2810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-216" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-203" target="y3eOfbAJYc8zDkFanGfB-215" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-203" value="pm_wanc_del_ppp(WANC_ID)&lt;br&gt;//删除WANC ppp连接" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1600" y="2910" width="170" height="60" as="geometry" />
+          <mxGeometry x="5609.25" y="2720" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-209" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-207" target="y3eOfbAJYc8zDkFanGfB-208" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -538,127 +541,127 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-207" value="是否还有共享vlan的wan连接存在" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1580" y="3000" width="205" height="80" as="geometry" />
+          <mxGeometry x="5589.25" y="2810" width="205" height="80" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-210" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-208" target="y3eOfbAJYc8zDkFanGfB-207" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-208" value="end" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1622.5" y="3170" width="120" height="60" as="geometry" />
+          <mxGeometry x="5631.75" y="2980" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-211" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1680" y="3140" as="targetPoint" />
+            <mxPoint x="5689.25" y="2950" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1480" y="3140" />
+              <mxPoint x="5489.25" y="2950" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-211" value="pm_e8_wancd_del()&lt;br&gt;//删除WANCD" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1420" y="3010" width="120" height="60" as="geometry" />
+          <mxGeometry x="5429.25" y="2820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-218" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-215" target="y3eOfbAJYc8zDkFanGfB-217" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-215" value="pm_wanc_clear_app_on_wanc&lt;br&gt;//清除APP的一些配置" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1860" y="2910" width="180" height="60" as="geometry" />
+          <mxGeometry x="5869.25" y="2720" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-220" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-217" target="y3eOfbAJYc8zDkFanGfB-219" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-217" value="pm_wanc_dss_cfg_del()&lt;br&gt;//无条件尝试删除，DSSCfg，pm_wanc_cgf_del会判断DSSCfg是否存在，主要是保护PMAPI调用过程中的回滚操作，" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1834" y="3010" width="232" height="80" as="geometry" />
+          <mxGeometry x="5843.25" y="2820" width="232" height="80" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-222" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-219" target="y3eOfbAJYc8zDkFanGfB-221" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-219" value="pm_dns_cfg_del(WANC_ID)&lt;br&gt;//删除WANC配置DNS信息（只有DB操作）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1840" y="3140" width="220" height="60" as="geometry" />
+          <mxGeometry x="5849.25" y="2950" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-224" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-221" target="y3eOfbAJYc8zDkFanGfB-223" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-221" value="plib_ifs_wanc_get_ppp_status()" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1840" y="3250" width="220" height="60" as="geometry" />
+          <mxGeometry x="5849.25" y="3060" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-226" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-223" target="y3eOfbAJYc8zDkFanGfB-225" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-223" value="pm_wanc_set_del_ppp_passthrough()&lt;br&gt;//释放Passthrough的资源" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1840" y="3360" width="220" height="60" as="geometry" />
+          <mxGeometry x="5849.25" y="3170" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-228" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-225" target="y3eOfbAJYc8zDkFanGfB-227" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-225" value="pm_wanc_del_servlist()&lt;br&gt;//删除本WAN连接与application之前的关系" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1840" y="3500" width="220" height="60" as="geometry" />
+          <mxGeometry x="5849.25" y="3310" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-230" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-227" target="y3eOfbAJYc8zDkFanGfB-229" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-227" value="pm_wanc_release_mac_for_wanc&lt;br&gt;//释放MAC记录&lt;br&gt;zxicDbDelView(DBVIEW_WANCPPP,WANC_ID)&lt;br&gt;//删除数据库内容" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1795" y="3640" width="310" height="60" as="geometry" />
+          <mxGeometry x="5804.25" y="3450" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="y3eOfbAJYc8zDkFanGfB-229" target="y3eOfbAJYc8zDkFanGfB-233" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-229" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2269.9999999999995" y="3930" as="targetPoint" />
+            <mxPoint x="6279.25" y="3740" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2270" y="3830" />
+              <mxPoint x="6279.25" y="3640" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-229" value="pm_send_msg_2mm(..,PM_OBJ_WAN_DEL_WANC,..)&lt;br&gt;//通知wanc管理模块（删除wanc）" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1795" y="3780" width="310" height="60" as="geometry" />
+          <mxGeometry x="5804.25" y="3590" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-235" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-233" target="y3eOfbAJYc8zDkFanGfB-234" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-233" value="如果开启了ppp和pppoeproxy()&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1762.5" y="3880" width="375" height="80" as="geometry" />
+          <mxGeometry x="5771.75" y="3690" width="375" height="80" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-237" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-234" target="y3eOfbAJYc8zDkFanGfB-236" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-234" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;pm_send_msg_2mm(..,PM_OBJ_WANCPPPPROXY_DE,..)&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;//清除pppproxy&lt;/span&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1783.75" y="4050" width="332.5" height="60" as="geometry" />
+          <mxGeometry x="5793" y="3860" width="332.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-236" value="pm_wanc_del_ack(WAN_ID)&lt;br&gt;//检查功能模块的删除是否已同步，" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1783.75" y="4190" width="332.5" height="60" as="geometry" />
+          <mxGeometry x="5793" y="4000" width="332.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-242" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-240" target="y3eOfbAJYc8zDkFanGfB-241" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-240" value="plib_ifs_unregister_netif()&lt;br&gt;//给接口栈发删除消息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="3930" width="168" height="60" as="geometry" />
+          <mxGeometry x="6189.25" y="3740" width="168" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-244" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-241" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2264" y="4210" as="targetPoint" />
+            <mxPoint x="6273.25" y="4020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-241" value="将传过来的数据写入到DB" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="4070" width="168" height="60" as="geometry" />
+          <mxGeometry x="6189.25" y="3880" width="168" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-247" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-245" target="y3eOfbAJYc8zDkFanGfB-246" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-245" value="ASEND(EV_IFS_UNREGISTER_IF&lt;br&gt;,IF_ID&lt;br&gt;,sizeof(INTERFACE_ID),IFS_PID)&lt;br&gt;//注销INTERFACE_ID" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2137.5" y="4210" width="360" height="60" as="geometry" />
+          <mxGeometry x="6146.75" y="4020" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-249" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3eOfbAJYc8zDkFanGfB-246" target="y3eOfbAJYc8zDkFanGfB-248" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-246" value="ifs_if.c&lt;br&gt;si_ifs_unreg_if()&lt;br&gt;//接口注销事件处理函数" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2175.62" y="4330" width="283.75" height="60" as="geometry" />
+          <mxGeometry x="6184.87" y="4140" width="283.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3eOfbAJYc8zDkFanGfB-248" target="K4S3g9r_EhhpYkq4am3e-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y3eOfbAJYc8zDkFanGfB-248" value="ifs_api.c&lt;br&gt;si_ifs_get_netif(IF_ID)&lt;br&gt;//根据接口ID，查询网络接口" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2520" y="4330" width="160.01" height="60" as="geometry" />
+          <mxGeometry x="6529.25" y="4140" width="160.01" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-1" value="webd_adaptor_mode_test.c" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="55.5" y="10" width="164" height="30" as="geometry" />
@@ -667,44 +670,44 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-2" value="判断该接口是否已删除，&lt;br&gt;或正在被删除，如果是则返回出错" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2520" y="4430" width="160.01" height="60" as="geometry" />
+          <mxGeometry x="6529.25" y="4240" width="160.01" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-4" target="K4S3g9r_EhhpYkq4am3e-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-4" value="si_ifs_netif_predel()&lt;br&gt;预删除该网络接口" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2520" y="4530" width="160.01" height="60" as="geometry" />
+          <mxGeometry x="6529.25" y="4340" width="160.01" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-8" target="K4S3g9r_EhhpYkq4am3e-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-8" value="si_ifs_notify_if_up()&lt;br&gt;//遍历所有上层接口，&lt;br&gt;通知上层接口，该接口pre-del" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2760.01" y="4530" width="169.99" height="60" as="geometry" />
+          <mxGeometry x="6769.26" y="4340" width="169.99" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2845.0049999999997" y="4730" as="targetPoint" />
+            <mxPoint x="6854.254999999999" y="4540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-10" value="变迁状态为IF_STATE_DELETING&lt;br&gt;//即处于删除状态" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2745.01" y="4630" width="199.99" height="60" as="geometry" />
+          <mxGeometry x="6754.26" y="4440" width="199.99" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-18" value="路由接口" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2670.0000000000005" y="4860" as="targetPoint" />
+            <mxPoint x="6679.25" y="4670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-20" value="桥接口" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-14" target="K4S3g9r_EhhpYkq4am3e-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-14" value="判断是哪钟类型接口" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2765" y="4730" width="160" height="80" as="geometry" />
+          <mxGeometry x="6774.25" y="4540" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-19" target="K4S3g9r_EhhpYkq4am3e-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-19" value="to set/to del" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3240" y="5030" width="120" height="60" as="geometry" />
+          <mxGeometry x="7249.25" y="4840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-28" value="to set" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-25" target="K4S3g9r_EhhpYkq4am3e-27">
           <mxGeometry relative="1" as="geometry" />
@@ -713,141 +716,193 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-25" value="to set/to del" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2600" y="4860" width="140" height="80" as="geometry" />
+          <mxGeometry x="6609.25" y="4670" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-27" target="K4S3g9r_EhhpYkq4am3e-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-27" value="si_ifs_route_netif_down&lt;br&gt;//先关闭网络链接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2390" y="5000" width="170" height="60" as="geometry" />
+          <mxGeometry x="6399.25" y="4810" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-29" target="K4S3g9r_EhhpYkq4am3e-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-29" value="si_ifs_del_routeif()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2610" y="5000" width="120" height="60" as="geometry" />
+          <mxGeometry x="6619.25" y="4810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-33" value="si_ifs_del_routeif()&lt;br&gt;//" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2390" y="5140" width="170" height="60" as="geometry" />
+          <mxGeometry x="6399.25" y="4950" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-35" target="K4S3g9r_EhhpYkq4am3e-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-35" value="si_ifs_routeif_predel()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2805" y="5000" width="120" height="60" as="geometry" />
+          <mxGeometry x="6814.25" y="4810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-37" target="K4S3g9r_EhhpYkq4am3e-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-37" value="si_ifs_run_statemachine4()&lt;br&gt;case STATE_DISCONNECTED&lt;br&gt;si_ifs_doaction_on_disconnected4()&lt;br&gt;plib_route_interface_down()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2761.25" y="5090" width="207.5" height="60" as="geometry" />
+          <mxGeometry x="6770.5" y="4900" width="207.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-39" target="K4S3g9r_EhhpYkq4am3e-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-39" value="SSEND(EV_ROUTE_INTERFACE_DOWN,...)&lt;br&gt;si_rt_if_down//处理接口栈down事件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2735.63" y="5190" width="258.75" height="60" as="geometry" />
+          <mxGeometry x="6744.88" y="5000" width="258.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-41" target="K4S3g9r_EhhpYkq4am3e-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-41" value="si_route_if_down()//处理wan/lan接口down事件&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2735.63" y="5330" width="258.75" height="240" as="geometry" />
+          <mxGeometry x="6744.88" y="5140" width="258.75" height="240" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-43" value="删除路由连接接口IP的，ip route规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2745.01" y="5360" width="244.37" height="40" as="geometry" />
+          <mxGeometry x="6754.26" y="5170" width="244.37" height="40" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-44" value="查询DB静态路由视图中与此连接相关的路由&lt;br&gt;更新DB中的路由条目状态为disable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2745.01" y="5410" width="244.37" height="40" as="geometry" />
+          <mxGeometry x="6754.26" y="5220" width="244.37" height="40" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-45" value="down掉的是用户配置的默认路由，&lt;br&gt;则熄灭led" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2742.82" y="5460" width="244.37" height="40" as="geometry" />
+          <mxGeometry x="6752.07" y="5270" width="244.37" height="40" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-48" value="默认路由down，通知相关应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2740" y="5510" width="244.37" height="40" as="geometry" />
+          <mxGeometry x="6749.25" y="5320" width="244.37" height="40" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-49" value="si_ifs_routeif_del()&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2735.63" y="5640" width="258.75" height="300" as="geometry" />
+          <mxGeometry x="6744.88" y="5450" width="258.75" height="300" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-51" value="删除路由条目" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2760" y="5680" width="210" height="40" as="geometry" />
+          <mxGeometry x="6769.25" y="5490" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-52" value="删除状态表信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2761.25" y="5730" width="210" height="40" as="geometry" />
+          <mxGeometry x="6770.5" y="5540" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-53" value="通知应用接口删除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2762.2" y="5780" width="210" height="40" as="geometry" />
+          <mxGeometry x="6771.45" y="5590" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-54" value="释放内存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2760.0099999999998" y="5830" width="210" height="40" as="geometry" />
+          <mxGeometry x="6769.26" y="5640" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-55" value="同步返回del给管理接口子模块&lt;br&gt;si_ifs_set_routeif_delack()&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2757.19" y="5880" width="210" height="40" as="geometry" />
+          <mxGeometry x="6766.4400000000005" y="5690" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-57" value="si_ifs_del_brportif" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="3165" y="5130" width="270" height="290" as="geometry" />
+          <mxGeometry x="7174.25" y="4940" width="270" height="290" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-66" value="//接口存在则出桥&lt;br&gt;si_ifs_br_delif()//其实就是调用brctl...这代码真的垃圾，给爷看吐了&lt;br&gt;发布del消息&lt;br&gt;删除DB记录&lt;br&gt;释放桥所占用内存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3170" y="5160" width="250" height="90" as="geometry" />
+          <mxGeometry x="7179.25" y="4970" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-69" value="查询是否还有共享的vlan存在，没有则删除WANCD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2410" y="2490" width="165" height="60" as="geometry" />
+          <mxGeometry x="6419.25" y="2300" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-71" target="K4S3g9r_EhhpYkq4am3e-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-71" value="pm_wanc_del_ip()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2408" y="2390" width="170" height="60" as="geometry" />
+          <mxGeometry x="6417.25" y="2200" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-72" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-68">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2510" y="2390" as="sourcePoint" />
-            <mxPoint x="2560" y="2340" as="targetPoint" />
+            <mxPoint x="6519.25" y="2200" as="sourcePoint" />
+            <mxPoint x="6569.25" y="2150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-68" value="添加日志，web删除WAN连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2410" y="2300" width="165" height="60" as="geometry" />
+          <mxGeometry x="6419.25" y="2110" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-68" target="K4S3g9r_EhhpYkq4am3e-71">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2700" y="2410" as="sourcePoint" />
-            <mxPoint x="2750" y="2360" as="targetPoint" />
+            <mxPoint x="6709.25" y="2220" as="sourcePoint" />
+            <mxPoint x="6759.25" y="2170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-71" target="K4S3g9r_EhhpYkq4am3e-69">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2640" y="2500" as="sourcePoint" />
-            <mxPoint x="2690" y="2450" as="targetPoint" />
+            <mxPoint x="6649.25" y="2310" as="sourcePoint" />
+            <mxPoint x="6699.25" y="2260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-76" value="pm_wanc_del_ip()" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2658" y="2390" width="222" height="670" as="geometry" />
+          <mxGeometry x="6667.25" y="2200" width="222" height="670" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-78" value="pm_wanc_clear_app_on_wanc()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2676.5" y="2420" width="185" height="60" as="geometry" />
+          <mxGeometry x="6685.75" y="2230" width="185" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-79" value="pm_wanc_dss_cfg_del&lt;br&gt;尝试删除DSSCfg" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2676.5" y="2490" width="185" height="70" as="geometry" />
+          <mxGeometry x="6685.75" y="2300" width="185" height="70" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-80" value="pm_dns_cfg_del&lt;br&gt;删除DNS配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2676.5" y="2570" width="185" height="70" as="geometry" />
+          <mxGeometry x="6685.75" y="2380" width="185" height="70" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-81" value="pm_wanc_del_servlist()&lt;br&gt;删除本WAN连接与application之间的关系" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2676.5" y="2650" width="185" height="70" as="geometry" />
+          <mxGeometry x="6685.75" y="2460" width="185" height="70" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-82" value="pm_wanc_release_mac_foe_wanc&lt;br&gt;释放mac记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2676.5" y="2730" width="185" height="70" as="geometry" />
+          <mxGeometry x="6685.75" y="2540" width="185" height="70" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-83" value="pm_send_msg_2mm(DHCP4C_PID,EV_PM_DEL,...)&lt;br&gt;//通知DHCP4C管理模块，&lt;br&gt;执行删除WAN连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2676.5" y="2808" width="185" height="70" as="geometry" />
+          <mxGeometry x="6685.75" y="2618" width="185" height="70" as="geometry" />
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.351;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-84" target="y3eOfbAJYc8zDkFanGfB-229">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2220" y="3750" as="targetPoint" />
+            <mxPoint x="6229.25" y="3560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-84" value="pm_send_msg_2mm(IFS_ADAPT_PID,EV_PM_DEL,PM_OBJ_WAN_DEL_WANC)&lt;br&gt;//通知WAN管理模块删除WAN连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2676.5" y="2890" width="185" height="70" as="geometry" />
+          <mxGeometry x="6685.75" y="2700" width="185" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-86" target="K4S3g9r_EhhpYkq4am3e-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-86" value="si_ifsadapt_set_wanc_by_mode()&lt;br&gt;//设置wan链接的业务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="2070" width="237" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-88" value="case ROUTER_BRG_MODE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="2351" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-90" target="K4S3g9r_EhhpYkq4am3e-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-90" target="K4S3g9r_EhhpYkq4am3e-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.613;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-90" target="K4S3g9r_EhhpYkq4am3e-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1609" y="2240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-90" value="switch(sw_mode-&amp;gt;rRouteMode)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1096" y="2200" width="255" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-93" target="K4S3g9r_EhhpYkq4am3e-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-93" value="case ROUTER_ROUTE_REPEAT_MODE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="2350" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-94" target="K4S3g9r_EhhpYkq4am3e-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-94" value="case ROUTER_ROUTE_MODE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="2351" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-96" target="K4S3g9r_EhhpYkq4am3e-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-96" value="si_ifsadapt_mode_brg_up()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="2430" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-98" value="si_ifsadapt_get_viewname_by_wancname(&lt;br&gt;&quot;DEFAULT_OTHER_BRIDGE&quot;,WANC_TMP)；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1111.25" y="2520" width="287.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-100" value="si_ifsadapt_get_viewname_by_wancname(&lt;br&gt;&quot;DEFAULT_INTERNET_DHCP_B&quot;,WANC_TMP)；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1111.25" y="2590" width="287.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-103" value="si_ifsadapt_mode_route_dhcp_static_up()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="2440" width="250" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
