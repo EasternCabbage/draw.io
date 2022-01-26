@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T07:19:54.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="KxhvxheatfJt_usgIZIL" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-26T08:08:54.703Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="6rgga__NXwmVuJa8g8qp" version="16.2.6" type="github">
   <diagram id="Va-PVR1Byn-keVQ8LROa" name="Page-1">
     <mxGraphModel dx="1028" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1018,8 +1018,35 @@
         <mxCell id="K4S3g9r_EhhpYkq4am3e-142" value="pm_e8_wanc_pdt_set_comm_bridge()&lt;br&gt;//设置wan信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="292" y="3120" width="242.94" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-144" target="K4S3g9r_EhhpYkq4am3e-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="K4S3g9r_EhhpYkq4am3e-144" value="pm_e8_wanc_get_multvlan_by_wanc()&lt;br&gt;。。。&lt;br&gt;//各种修改&lt;br&gt;//修改端口绑定时，组播vlan要相应修改" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="292" y="3260" width="242.94" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-146" target="K4S3g9r_EhhpYkq4am3e-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-146" value="pm_e8_wanc_handle_comm_binding()&lt;br&gt;//处理web绑定参数变化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="292" y="3400" width="242.94" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-148" target="K4S3g9r_EhhpYkq4am3e-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-148" value="如果是新增，且用户没有设置dhcp" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="292" y="3540" width="242.94" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K4S3g9r_EhhpYkq4am3e-150" target="K4S3g9r_EhhpYkq4am3e-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-150" value="先增加dhcp数据库记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="3580" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-152" value="如果dhcp没有打开，通过wanc设置dhcp为false，如果WANC 设置中dhcp打开了，将WANC dhcp打开&lt;br&gt;pm_e8_wanc_set_dhcp_by_wanc()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="3670" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K4S3g9r_EhhpYkq4am3e-154" value="pm_e8_wanc_recfg_dhcp_on_lans（);&lt;br&gt;总是处理一边DHCP" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="283.47" y="3840" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
